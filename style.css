@@ -8,4 +8,51 @@ html {
 }
 body {
   font-family: "Space Mono", monospace;
+  background: #c5e4e7;
+  padding-top: 5rem;
+}
+.header-image {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.header-class {
+  margin-bottom: 4rem;
+}
+.main-container {
+  border-radius: 25px 25px 0px 0px;
+  box-shadow: 0px 32px 43px 0px rgba(79, 166, 175, 0.2);
+  background: #fff;
+  padding: 2.4rem 3.2rem 2.4rem;
+  display: flex;
+  flex-direction: column;
+}
+.white-container {
+  background: #fff;
+  /* display: flex;
+  flex-direction: column; */
+}
+.tip-percentage {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 1.6rem;
+}
+.dark-div {
+  background: #00474b;
+}
+.bill-class {
+  display: block;
+  margin-bottom: 0.2rem;
+}
+.money-amount {
+  border-radius: 5px;
+  background: #f3f9fa;
+  color: #00474b;
+  text-align: right;
+  font-family: "Space Mono";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }

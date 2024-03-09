@@ -13,5 +13,45 @@
     <link rel="stylesheet" href="style.css" />
     <title>tip-calculator</title>
   </head>
-  <body></body>
+  <body>
+    <header class="header-class">
+      <img class="header-image" src="./images/logo.svg" alt="" />
+    </header>
+
+    <div class="main-container">
+      <div class="white-container">
+        <span class="bill-class">Bill</span>
+        <input class="money-amount" placeholder="0" type="number" />
+        <span class="tip-class">Select Tip %</span>
+        <div class="tip-percentage">
+          <button>5%</button>
+          <button>10%</button>
+          <button>15%</button>
+          <button>25%</button>
+          <button>50%</button>
+          <button>Custom</button>
+        </div>
+        <span>Number of People</span>
+        <input type="number" />
+      </div>
+
+      <div class="dark-div">
+        <div>
+          <div>
+            <span>Tip Amount</span>
+            <span> / person</span>
+          </div>
+          <span>/ person</span>
+        </div>
+        <div>
+          <div>
+            <span>Total</span>
+            <span>/ person</span>
+          </div>
+          <span>$32.79</span>
+        </div>
+        <button>RESET</button>
+      </div>
+    </div>
+  </body>
 </html>
