@@ -20,7 +20,7 @@ body {
   margin-bottom: 4rem;
 }
 .main-container {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   border-radius: 25px 25px 0px 0px;
   box-shadow: 0px 32px 43px 0px rgba(79, 166, 175, 0.2);
   background: #fff;
@@ -196,4 +196,57 @@ body {
   background: #26c2ae;
   padding: 1rem 0;
   border: none;
+}
+@media (min-width: 90rem) {
+  body {
+    padding: 16.3rem 26rem 23.9rem 26rem;
+  }
+  .main-container {
+    flex-direction: row;
+    gap: 4.8rem;
+    padding: 3.2rem 3.2rem 3.2rem 4.8rem;
+  }
+  .dark-div {
+    width: 55%;
+  }
+  .header-class {
+    margin-bottom: 8.7rem;
+  }
+  .people-amount {
+    margin-bottom: 4rem;
+  }
+  .tip-percentage {
+    margin-bottom: 4rem;
+  }
+  .dolar-icon {
+    top: 37.5rem;
+    left: 33rem;
+  }
+  .person-logo {
+    top: 69.5rem;
+    left: 33rem;
+  }
+  .tip-amount-money {
+    color: #26c2ae;
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1px;
+  }
+  .total-money-class {
+    color: #26c2ae;
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1px;
+  }
+  .total-parent-div {
+    align-items: center;
+    margin-bottom: 12.2rem;
+  }
+  .tip-amount-parent-div {
+    align-items: center;
+  }
 }
