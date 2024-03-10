@@ -61,6 +61,12 @@ body {
   padding: 2rem 1.7rem 1rem;
   width: 100%;
   margin-bottom: 3.2rem;
+  position: relative;
+}
+.dolar-icon {
+  position: absolute;
+  top: 20.9rem;
+  left: 5rem;
 }
 .money-amount::placeholder {
   color: #00474b;
@@ -110,6 +116,12 @@ body {
   padding: 2rem 1.7rem 1rem;
   width: 100%;
   margin-bottom: 3.2rem;
+  position: relative;
+}
+.person-logo {
+  position: absolute;
+  top: 51.8rem;
+  left: 5rem;
 }
 .people-amount::placeholder {
   color: #00474b;
