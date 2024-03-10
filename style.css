@@ -20,6 +20,7 @@ body {
   margin-bottom: 4rem;
 }
 .main-container {
+  min-height: 100vh;
   border-radius: 25px 25px 0px 0px;
   box-shadow: 0px 32px 43px 0px rgba(79, 166, 175, 0.2);
   background: #fff;
@@ -37,22 +38,150 @@ body {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
   gap: 1.6rem;
+  margin-bottom: 3.2rem;
 }
 .dark-div {
+  border-radius: 15px;
   background: #00474b;
 }
 .bill-class {
   display: block;
   margin-bottom: 0.2rem;
-}
-.money-amount {
-  border-radius: 5px;
-  background: #f3f9fa;
-  color: #00474b;
-  text-align: right;
-  font-family: "Space Mono";
-  font-size: 24px;
-  font-style: normal;
+  color: #5e7a7d;
+  font-size: 16px;
   font-weight: 700;
   line-height: normal;
+}
+.money-amount {
+  border: none;
+  text-align: center;
+  border-radius: 5px;
+  background: #f3f9fa;
+  display: block;
+  padding: 2rem 1.7rem 1rem;
+  width: 100%;
+  margin-bottom: 3.2rem;
+}
+.money-amount::placeholder {
+  color: #00474b;
+  text-align: right;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: normal;
+}
+.tip-class {
+  color: #5e7a7d;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 1.6rem;
+}
+.btn {
+  padding: 0.6rem 0;
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 5px;
+  background: #00474b;
+  border: none;
+}
+.custom {
+  background: #fff;
+  color: #547878;
+  text-align: right;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: normal;
+  padding-right: 1.7rem;
+}
+.number-of-people {
+  color: #5e7a7d;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 0.6rem;
+}
+.people-amount {
+  border: none;
+  border-radius: 5px;
+  background: #f3f9fa;
+  padding: 2rem 1.7rem 1rem;
+  width: 100%;
+  margin-bottom: 3.2rem;
+}
+.people-amount::placeholder {
+  color: #00474b;
+  text-align: right;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: normal;
+}
+.tip-amount-parent-div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2.5rem;
+}
+.tip-amount {
+  display: flex;
+  flex-direction: column;
+}
+.total-parent-div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3.5rem;
+}
+.total-div {
+  display: flex;
+  flex-direction: column;
+}
+.dark-div {
+  padding: 3.9rem 2.2rem 2.4rem 2.4rem;
+}
+.tip-amount-class {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+}
+.person-class {
+  color: #7f9d9f;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: normal;
+}
+.tip-amount-money {
+  color: #26c2ae;
+  text-align: right;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.667px;
+}
+.total-class {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+}
+.total-money-class {
+  color: #26c2ae;
+  text-align: right;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.667px;
+}
+.reset-buton {
+  color: #00474b;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+  width: 100%;
+  border-radius: 5px;
+  background: #26c2ae;
+  padding: 1rem 0;
+  border: none;
 }
