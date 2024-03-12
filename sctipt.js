@@ -1,13 +1,30 @@
 const billInput = document.querySelector(".money-amount");
-const percents = document.querySelectorAll(".btn");
+const percents = Array.from(document.querySelectorAll(".btn"));
 const peopleAmount = document.querySelector(".people-amount");
+let bill;
+let percent;
+let people;
 billInput.addEventListener("input", () => {
-  console.log(billInput.value);
+  bill = Number(billInput.value);
 });
+
 peopleAmount.addEventListener("input", () => {
-  console.log(peopleAmount.value);
+  people = Number(peopleAmount.value);
 });
-percents.addEventListener("click", () => {});
+for (let i = 0; i < percents.length; i++) {
+  percents[i].addEventListener("click", () => {
+    percent = parseFloat(percents[i].textContent);
+  });
+}
+
+function calc() {
+  let tipAmount = (bill * percent) / 100;
+  let totalBill = bill + tipAmount;
+  let billPerPerson = totalBill / people; //tip = bill*percent /100
+}
+function sum() {
+  (bill + tip) / peopleAmount;
+}
 
 // const tenPercent = document.querySelector(".ten");
 // const fifteenPercent = document.querySelector(".fifteen");
